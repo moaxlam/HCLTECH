@@ -1,0 +1,39 @@
+{
+  "students": [
+    {
+      "student_id": "S1002",
+      "full_name": "Aarav Kumar",
+      "programme": "B.Tech CSE",
+      "batch_year": 2023,
+      "current_semester": 5,
+      "cgpa": 8.17,
+      "active_backlogs": 0,
+      "attendance": [
+        {"course_code": "CS201", "classes_held": 35, "classes_attended": 32},
+        {"course_code": "CS202", "classes_held": 38, "classes_attended": 36}
+      ],
+      "results": [
+        {
+          "course_code": "CS201",
+          "exam_session": "2026-MAY",
+          "exam_type": "REGULAR",
+          "internal_marks": 24,
+          "external_marks": 38,
+          "total_marks": 62,
+          "max_marks": 100,
+          "result": "PASS"
+        },
+        {
+          "course_code": "CS202",
+          "exam_session": "2026-DEC",
+          "exam_type": "SUPPLEMENTARY",
+          "internal_marks": 27,
+          "external_marks": 42,
+          "total_marks": 69,
+          "max_marks": 100,
+          "result": "PASS"
+        }
+      ]
+    }
+  ]
+}

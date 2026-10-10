@@ -1,0 +1,12 @@
+doc_id,title,issuer,authority_level,doc_type,version,effective_from,effective_to,supersedes,scope_programmes,scope_batches,provenance,retrieved_on,synthetic
+ACAD-REG-2024,Academic Regulations for Undergraduate Programmes,Office of the Dean (Academics),1,regulation,3.1,2024-07-01,,,ALL,2023+,local:documents/ACAD-REG-2024_academic_regulations.md,2026-10-10,Y
+ACAD-2026-08,Circular ACAD-2026-08 Revised Minimum Attendance for End-Semester Examinations,Office of the Registrar,2,circular,1.0,2026-08-01,,ACAD-REG-2024#7.2,ALL,2023+,local:documents/ACAD-2026-08_minimum_attendance_circular.md,2026-10-10,Y
+EXAM-RULES-2025,Examination Rules and Procedures,Office of the Controller of Examinations,1,regulation,2.0,2025-01-01,,,ALL,2023+,local:documents/EXAM-RULES-2025_examination_rules.md,2026-10-10,Y
+PLACEMENT-POLICY-2025,Placement Policy,Training and Placement Cell,1,regulation,1.2,2025-07-01,,,ALL,2023+,local:documents/PLACEMENT-POLICY-2025_placement_policy.md,2026-10-10,Y
+SCHOLARSHIP-2026-01,Circular SCHOLARSHIP-2026-01 Merit Scholarship for the Academic Year 2026-27,Office of the Dean (Student Welfare),2,circular,1.0,2026-07-15,,,ALL,2023+,local:documents/SCHOLARSHIP-2026-01_merit_scholarship.md,2026-10-10,Y
+FEE-NOTICE-2026-07,Fee Notice FEE-NOTICE-2026-07 Semester Fee Examination Fee and Late Fee,Office of the Finance Officer,2,notice,1.0,2026-07-01,,,ALL,2023+,local:documents/FEE-NOTICE-2026-07_fee_notice.md,2026-10-10,Y
+DEPT-CSE-NOTICE-2026-09,Department Notice DEPT-CSE-NOTICE-2026-09 Laboratory Attendance and Practical Examination,Head Department of Computer Science and Engineering,3,notice,1.0,2026-09-01,,,B.Tech CSE,2023+,local:documents/DEPT-CSE-NOTICE-2026-09_lab_attendance.md,2026-10-10,Y
+DEPT-FAQ-2026,Student FAQ Department of Computer Science and Engineering,Department Help Desk Department of Computer Science and Engineering,4,faq,2.0,2026-09-15,,,B.Tech CSE,2023+,local:documents/DEPT-FAQ-2026_help_desk_faq.md,2026-10-10,Y
+HOSTEL-RULES-2026,Hostel Handbook 2026,Office of the Chief Warden,4,handbook,4.0,2026-07-01,,,ALL,2023+,local:documents/HOSTEL-RULES-2026_hostel_handbook.md,2026-10-10,Y
+STUCOUNCIL-NOTICE-2026-09,Student Council Notice Attendance Relief Demand,Students Council (unofficial),5,unofficial,1.0,2026-09-20,,,ALL,2023+,local:documents/STUCOUNCIL-NOTICE-2026-09_unofficial.md,2026-10-10,Y
+ACAD-2026-11,Circular ACAD-2026-11 Condonation and Detention Revised,Office of the Dean (Academics),2,circular,1.0,2026-12-01,,ACAD-REG-2024#7.3,ALL,2023+,local:documents/ACAD-2026-11_upcoming_circular.md,2026-10-10,Y

@@ -1,0 +1,7 @@
+# Optional extras for scanned pages (Document Complexity: OCR).
+# The system works without these; a PDF with no extractable text is reported as
+# needs_ocr instead of being indexed with empty content.
+# Tesseract itself must also be installed on the host, or use the tesseract-ocr
+# package in the api image.
+pytesseract>=0.3.13
+pdf2image>=1.17

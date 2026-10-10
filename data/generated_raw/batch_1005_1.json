@@ -1,0 +1,96 @@
+{
+  "students": [
+    {
+      "student_id": "S1005",
+      "full_name": "Aarav Menon",
+      "programme": "B.Tech ECE",
+      "batch_year": 2023,
+      "current_semester": 3,
+      "cgpa": 8.56,
+      "active_backlogs": 0,
+      "attendance": [
+        {"course_code": "EC201", "classes_held": 32, "classes_attended": 28},
+        {"course_code": "EC202", "classes_held": 35, "classes_attended": 30},
+        {"course_code": "EC203", "classes_held": 40, "classes_attended": 36}
+      ],
+      "results": [
+        {
+          "course_code": "EC201",
+          "exam_session": "2026-JAN",
+          "exam_type": "REGULAR",
+          "internal_marks": 24,
+          "external_marks": 38,
+          "total_marks": 62,
+          "max_marks": 100,
+          "result": "PASS"
+        },
+        {
+          "course_code": "EC202",
+          "exam_session": "2026-MAR",
+          "exam_type": "REGULAR",
+          "internal_marks": 25,
+          "external_marks": 40,
+          "total_marks": 65,
+          "max_marks": 100,
+          "result": "PASS"
+        },
+        {
+          "course_code": "EC203",
+          "exam_session": "2026-DEC",
+          "exam_type": "REGULAR",
+          "internal_marks": 26,
+          "external_marks": 42,
+          "total_marks": 68,
+          "max_marks": 100,
+          "result": "PASS"
+        }
+      ]
+    },
+    {
+      "student_id": "S1006",
+      "full_name": "Aarav Menon",
+      "programme": "B.Tech ECE",
+      "batch_year": 2023,
+      "current_semester": 3,
+      "cgpa": 8.56,
+      "active_backlogs": 0,
+      "attendance": [
+        {"course_code": "EC201", "classes_held": 32, "classes_attended": 28},
+        {"course_code": "EC202", "classes_held": 35, "classes_attended": 30},
+        {"course_code": "EC203", "classes_held": 40, "classes_attended": 36}
+      ],
+      "results": [
+        {
+          "course_code": "EC201",
+          "exam_session": "2026-JAN",
+          "exam_type": "REGULAR",
+          "internal_marks": 24,
+          "external_marks": 38,
+          "total_marks": 62,
+          "max_marks": 100,
+          "result": "PASS"
+        },
+        {
+          "course_code": "EC202",
+          "exam_session": "2026-MAR",
+          "exam_type": "REGULAR",
+          "internal_marks": 25,
+          "external_marks": 40,
+          "total_marks": 65,
+          "max_marks": 100,
+          "result": "PASS"
+        },
+        {
+          "course_code": "EC203",
+          "exam_session": "2026-DEC",
+          "exam_type": "REGULAR",
+          "internal_marks": 26,
+          "external_marks": 42,
+          "total_marks": 68,
+          "max_marks": 100,
+          "result": "PASS"
+        }
+      ]
+    }
+  ]
+}

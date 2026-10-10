@@ -1,0 +1,74 @@
+{
+  "students": [
+    {
+      "student_id": "S1003",
+      "full_name": "Aarav Patel",
+      "programme": "B.Tech CSE",
+      "batch_year": 2024,
+      "current_semester": 5,
+      "cgpa": 8.42,
+      "active_backlogs": 0,
+      "attendance": [
+        {"course_code": "CS201", "classes_held": 35, "classes_attended": 32},
+        {"course_code": "CS202", "classes_held": 40, "classes_attended": 39}
+      ],
+      "results": [
+        {
+          "course_code": "CS201",
+          "exam_session": "2026-JUNE",
+          "exam_type": "REGULAR",
+          "internal_marks": 24,
+          "external_marks": 38,
+          "total_marks": 62,
+          "max_marks": 100,
+          "result": "PASS"
+        },
+        {
+          "course_code": "CS202",
+          "exam_session": "2026-JUNE",
+          "exam_type": "REGULAR",
+          "internal_marks": 21,
+          "external_marks": 40,
+          "total_marks": 61,
+          "max_marks": 100,
+          "result": "PASS"
+        }
+      ]
+    },
+    {
+      "student_id": "S1004",
+      "full_name": "Rohan Kumar",
+      "programme": "B.Tech CSE",
+      "batch_year": 2024,
+      "current_semester": 5,
+      "cgpa": 8.95,
+      "active_backlogs": 0,
+      "attendance": [
+        {"course_code": "CS201", "classes_held": 45, "classes_attended": 42},
+        {"course_code": "CS202", "classes_held": 45, "classes_attended": 42}
+      ],
+      "results": [
+        {
+          "course_code": "CS201",
+          "exam_session": "2026-JUNE",
+          "exam_type": "REGULAR",
+          "internal_marks": 24,
+          "external_marks": 38,
+          "total_marks": 62,
+          "max_marks": 100,
+          "result": "PASS"
+        },
+        {
+          "course_code": "CS202",
+          "exam_session": "2026-JUNE",
+          "exam_type": "REGULAR",
+          "internal_marks": 21,
+          "external_marks": 40,
+          "total_marks": 61,
+          "max_marks": 100,
+          "result": "PASS"
+        }
+      ]
+    }
+  ]
+}

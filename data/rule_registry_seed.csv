@@ -1,0 +1,27 @@
+rule_id,description,parameter,operator,value,scope_programmes,scope_batches,effective_from,effective_to,source_doc_id,source_section,supersedes_rule_id,notes
+ATT-MIN-01,Minimum attendance to be eligible for the end-semester examination of a course,min_attendance_pct,>=,75,ALL,2023+,2024-07-01,,ACAD-REG-2024,7.2,,Superseded by circular ACAD-2026-08
+ATT-MIN-02,Revised minimum attendance for end-semester examination (in force),min_attendance_pct,>=,80,ALL,2023+,2026-08-01,,ACAD-2026-08,1.1,ATT-MIN-01,Came into force from the 2026-DEC session onwards
+ATT-CONDONATION-01,Maximum attendance shortage the Dean may condone,max_condonation_pct,<=,10,ALL,2023+,2024-07-01,,ACAD-REG-2024,7.3,,On medical grounds with documentary evidence
+ATT-CONDONATION-02,Maximum condonation after the circular of August 2026,max_condonation_pct,<=,10,ALL,2023+,2026-08-01,,ACAD-2026-08,1.3,ATT-CONDONATION-01,Condonation provision of the regulations continues to apply
+ATT-FLOOR-01,Attendance floor after condonation,min_attendance_after_condonation_pct,>=,65,ALL,2023+,2024-07-01,,ACAD-REG-2024,7.3,,,
+ATT-FLOOR-02,Attendance floor after condonation (in force),min_attendance_after_condonation_pct,>=,70,ALL,2023+,2026-08-01,,ACAD-2026-08,1.3,ATT-FLOOR-01,,
+DETENTION-01,Attendance at or below which a student is detained,detention_threshold_pct,<=,65,ALL,2023+,2024-07-01,,ACAD-REG-2024,7.4,,Detention is subject to no condonation being granted
+COURSE-MAX-01,Maximum marks for a course result,course_total_max_marks,==,100,ALL,2023+,2025-01-01,,EXAM-RULES-2025,3.1,,Internal 30 plus end-semester paper 70
+INTERNAL-MAX-01,Maximum internal assessment marks,internal_max_marks,==,30,ALL,2023+,2025-01-01,,EXAM-RULES-2025,3.1,,,
+PAPER-MAX-01,Maximum marks of the end-semester paper,end_sem_paper_max_marks,==,70,ALL,2023+,2025-01-01,,EXAM-RULES-2025,3.1,,,
+PASS-MARK-01,Minimum aggregate marks to pass a course,pass_marks_min,>=,40,ALL,2023+,2025-01-01,,EXAM-RULES-2025,3.2,,Out of 100 marks
+PASS-PAPER-01,Minimum share of the end-semester paper marks,end_sem_min_pct,>=,30,ALL,2023+,2025-01-01,,EXAM-RULES-2025,3.3,,Percent of the 70-mark paper, i.e. 21 marks
+SUPP-ATTEMPTS-01,Maximum number of supplementary attempts per course,max_supplementary_attempts,<=,2,ALL,2023+,2024-07-01,,ACAD-REG-2024,9.2,,,
+SUPP-WINDOW-01,Days after result declaration to apply for a supplementary examination,supp_application_window_days,<=,10,ALL,2023+,2025-01-01,,EXAM-RULES-2025,5.1,,From the date of declaration of the result
+SUPP-LATE-FEE-01,Late fee for a supplementary application after the notified date,supp_late_fee_inr,==,200,ALL,2023+,2025-01-01,,EXAM-RULES-2025,5.2,,,
+SUPP-FEE-01,Fee per course for the supplementary examination,supp_fee_inr,==,500,ALL,2023+,2025-01-01,,EXAM-RULES-2025,5.2,,,
+FEE-LATE-01,Late fee for semester fee paid in the first late window,late_fee_first_window_inr,==,500,ALL,2023+,2026-07-01,,FEE-NOTICE-2026-07,2.1,,Applies from 11 August 2026 up to 31 August 2026
+FEE-LATE-02,Late fee for semester fee paid after the first late window,late_fee_second_window_inr,==,2000,ALL,2023+,2026-07-01,,FEE-NOTICE-2026-07,2.2,,Applies after 31 August 2026
+PLACEMENT-CGPA-01,Minimum CGPA to register for a campus placement drive,min_cgpa_placement,>=,6,ALL,2023+,2025-07-01,,PLACEMENT-POLICY-2025,2.1,,,
+PLACEMENT-BACKLOG-01,Maximum active backlogs to register for a campus placement drive,max_active_backlogs_placement,<=,1,ALL,2023+,2025-07-01,,PLACEMENT-POLICY-2025,2.1,,,
+SCHOLARSHIP-CGPA-01,Minimum CGPA for the merit scholarship,min_cgpa_scholarship,>=,7.5,ALL,2023+,2026-07-15,,SCHOLARSHIP-2026-01,2.1,,,
+SCHOLARSHIP-ATT-01,Minimum attendance for the merit scholarship,min_attendance_scholarship_pct,>=,80,ALL,2023+,2026-07-15,,SCHOLARSHIP-2026-01,2.1,,,
+SCHOLARSHIP-BACKLOG-01,Maximum active backlogs for the merit scholarship,max_active_backlogs_scholarship,<=,0,ALL,2023+,2026-07-15,,SCHOLARSHIP-2026-01,2.1,,,
+LAB-ATT-01,Departmental minimum laboratory attendance for practical examination,min_lab_attendance_pct,>=,90,B.Tech CSE,2023+,2026-09-01,,DEPT-CSE-NOTICE-2026-09,1.1,,Departmental requirement for laboratory courses
+HOSTEL-LATE-FEE-01,Late fee for hostel fee paid after the notified date,hostel_late_fee_inr,==,500,ALL,2023+,2026-07-01,,HOSTEL-RULES-2026,2.3,,,
+ATT-CONDONATION-03,Maximum condonation after circular ACAD-2026-11,attendance_recovery_band_pct,<=,3,ALL,2023+,2026-12-01,,ACAD-2026-11,1.2,ATT-CONDONATION-02,Not yet effective on 2026-10-10; recorded so the registry shows upcoming changes

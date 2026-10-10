@@ -1,0 +1,104 @@
+{
+  "source": "hybrid",
+  "requested_from_model": 4,
+  "total": 30,
+  "model": "llama3.2:1b",
+  "model_calls": 3,
+  "rejected_or_topped_up_batches": 0,
+  "model_block_budget_exhausted": false,
+  "repairs": [
+    "S1002/CS202: dropped a result row with an unreadable exam_session ('2026-JUN')",
+    "S1003/CS201: exam_session '2026-JUNE' -> 2026-MAY",
+    "S1003/CS202: exam_session '2026-JUNE' -> 2026-MAY",
+    "S1004/CS201: exam_session '2026-JUNE' -> 2026-MAY",
+    "S1004/CS202: exam_session '2026-JUNE' -> 2026-MAY"
+  ],
+  "model_student_ids": [
+    "S1001",
+    "S1002",
+    "S1003",
+    "S1004"
+  ],
+  "deterministic_student_ids": [
+    "S1005",
+    "S1006",
+    "S1007",
+    "S1008",
+    "S1009",
+    "S1010",
+    "S1011",
+    "S1012",
+    "S1013",
+    "S1014",
+    "S1015",
+    "S1016",
+    "S1017",
+    "S1018",
+    "S1019",
+    "S1020",
+    "S1021",
+    "S1022",
+    "S1023",
+    "S1024",
+    "S1025",
+    "S1026",
+    "S1027",
+    "S1028",
+    "S1029",
+    "S1030"
+  ],
+  "seconds": 86.5,
+  "counts": {
+    "students": 38,
+    "courses": 6,
+    "attendance": 111,
+    "results": 93
+  },
+  "validation_ok": true,
+  "violations": [],
+  "edge_cases": {
+    "attendance_at_threshold": [
+      "S1001",
+      "S1015",
+      "S2001"
+    ],
+    "attendance_below_threshold": [
+      "S1006",
+      "S1007",
+      "S1008",
+      "S1009",
+      "S1014",
+      "S1021",
+      "S1022",
+      "S1023",
+      "S1024",
+      "S1025",
+      "S1026",
+      "S1027",
+      "S2002"
+    ],
+    "marks_just_below_pass": [
+      "S1005",
+      "S1015",
+      "S2002",
+      "S2003",
+      "S2008"
+    ],
+    "absent_result": [
+      "S2004"
+    ],
+    "detained_student": [
+      "S2005"
+    ],
+    "multiple_backlogs": [
+      "S1010",
+      "S1015",
+      "S1020",
+      "S1024",
+      "S2006"
+    ],
+    "cgpa_at_placement_cutoff": [
+      "S2007"
+    ]
+  }
+}

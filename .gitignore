@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Databases and vector indexes are rebuilt from the committed CSVs/documents
+data/university.db
+data/university.db-*
+data/chroma/
+data/uploads/
+data/hf-cache/
+
+# Node / React
+ui/node_modules/
+ui/dist/
+ui/.vite/
+
+# Local toolchain fetched for verification, never committed
+.tools/
+
+# Environment
+.env
+
+# OS
+Thumbs.db
+.DS_Store

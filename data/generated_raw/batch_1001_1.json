@@ -1,0 +1,40 @@
+{
+  "students": [
+    {
+      "student_id": "S1002",
+      "full_name": "Rohan Kumar",
+      "programme": "B.Tech CSE",
+      "batch_year": 2023,
+      "current_semester": 5,
+      "cgpa": 7.69,
+      "active_backlogs": 0,
+      "attendance": [
+        {"course_code": "CS201", "classes_held": 35, "classes_attended": 30},
+        {"course_code": "CS202", "classes_held": 30, "classes_attended": 28},
+        {"course_code": "CS203", "classes_held": 40, "classes_attended": 32}
+      ],
+      "results": [
+        {
+          "course_code": "CS201",
+          "exam_session": "2026-MAY",
+          "exam_type": "REGULAR",
+          "internal_marks": 24,
+          "external_marks": 38,
+          "total_marks": 62,
+          "max_marks": 100,
+          "result": "PASS"
+        },
+        {
+          "course_code": "CS202",
+          "exam_session": "2026-JUN",
+          "exam_type": "SUPPLEMENTARY",
+          "internal_marks": 20,
+          "external_marks": 32,
+          "total_marks": 52,
+          "max_marks": 100,
+          "result": "ABSENT"
+        }
+      ]
+    }
+  ]
+}
